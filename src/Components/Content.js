@@ -9,7 +9,7 @@ const Content = () => {
         muted
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/subfolder/globe.mov" type="video/mp4" />
+        <source src="./globe.mov" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

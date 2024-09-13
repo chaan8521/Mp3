@@ -12,6 +12,7 @@ const CityForm = ({ onSubmit }) => {
       alert("Please enter a city name!!!");
       return;
     }
+    console.log(onSubmit)
     onSubmit(cityName);
   };
 

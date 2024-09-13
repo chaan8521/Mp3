@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useFetch from '../../useFetch';
 import WeatherData from './WeatherData';
-import CityForm from './CityForm'; // Import the new component
+import CityForm from './CityForm'; 
 
 function Weather() {
   const [url, setUrl] = useState("");

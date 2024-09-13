@@ -3,7 +3,7 @@ import React from 'react';
 const CurrencyCalculator = ({ amount, fromCurrency, toCurrency, currencies, setResult }) => {
   const calculateConversion = () => {
     if (!amount) {
-      setResult('Please put amount.');
+      setResult('Please put amont.');
       return;
     }
 
